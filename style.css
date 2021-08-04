@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3b444b;
+}
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+head {
+    width: 30px;
+    margin-left: 32px;
+    display: flex;
+
+}
+.nav-bar {
+    margin: 32px;
+    display: flex;
+    margin-top: -8px;
+    margin-left: 40%;
+    margin-right: 20%;
+}
+.logo {
+    width: 80px;
+    margin: 52px;
+}
+ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+}
+li {
+    padding-left: 15%;
+    margin-top: -20%;
+
+}
+li a {
+    text-decoration: none;
+    color: white;
+    flex-direction: row;
+    font-size: 105%;
+}
+a:hover {
+    color: rgb(243, 48, 48);
+}
+.land .name {
+    margin-top: 10%;
+    margin-left: 8%;
+
+}
+.land h1 {
+    font-size: 600%;
+    font-weight: 500;
+    color: red;
+}
+.land p {
+    color: white;
+}
+.land button {
+    margin-top: 30px;
+    padding: 20px 40px;
+    background-color: #ececec;
+    border-radius: 10%;
+}
+.land button:hover {
+    background-color: rgb(243, 48, 48);
+}
+.car {
+    width: 700px;
+    margin-top: -30%;
+    margin-left: 45%;
+}
+.tesla {
+    animation: anm 9s linear alternate infinite;
+    background: transparent;
+
+}
+@keyframes anm {
+    50% {
+        transform: translate(80%, -180%);
+    }
+}
